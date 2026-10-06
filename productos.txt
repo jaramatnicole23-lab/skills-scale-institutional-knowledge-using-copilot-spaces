@@ -1,0 +1,7 @@
+USE MiBaseDeDatos;
+CREATE TABLE Productos (
+    ProductoID INT PRIMARY KEY,
+    Nombre VARCHAR(100) NOT NULL,
+    Precio DECIMAL(10,2),
+    Stock INT
+);
